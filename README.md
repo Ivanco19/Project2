@@ -1,10 +1,12 @@
 # Project2
 
-For the ETL mini project, you will work with a partner to practice building an ETL pipeline using Python, Pandas, and either Python dictionary methods or regular expressions to extract and transform the data. After you transform the data, you'll create four CSV files and use the CSV file data to create an ERD and a table schema. Finally, you’ll upload the CSV file data into a Postgres database.
+For the ETL mini project, it was put on practice building an ETL pipeline using Python, Pandas, and Python dictionary methods or regular expressions to extract and transform the data. After data transformation, there were created four CSV files and used the CSV file data to create an ERD and a table schema. Finally, the CSV files data were uploaded into a Postgres database.
 
-Since this is a one-week project, make sure that you have done at least half of your project before the third day of class to stay on track.
+In the ETL_Mini_Project jupyter notebook you will find the ETL process to get the final csv files with all the methods mentioned above.
 
-Although you and your partner will divide the work, it’s essential to collaborate and communicate while working on different parts of the project. Be sure to check in with your partner regularly and offer support.
+If you want to import the csv files to a postgress database, please create a new db on postgress and import the 'crowdfunding_db_schema' file, and then run it. It will automatically create 4 tables for you: contacts, category, subcategory and campaigns. Once the tables are created please go ahead and start importing the csv files in the same order the tables were created (This is because one of them needs information from the other tables).
+
+After you finished importing all the csv files, you can import the 'basic_queries' file to start running the SELECT statement in order to display all data from each table.
 
 -------------------------------------
-Iván Corona, Frida Ortega, Andres Elosua
+Developed by: Iván Corona, Frida Ortega, Andres Elosua
